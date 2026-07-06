@@ -295,10 +295,14 @@ Registry: `HKLM\SOFTWARE\Microsoft\IdentityStore` (`DeviceId` and `LID`), `HKLM\
 
 </details>
 
+> [!NOTE]
+> NullZeroX on twitter has told me that GDID is also sent regardless of being logged in with a ms account on your device. I'm not sure how true it is, but worth taking note.
+
 ---
 
 <div align="center">
 
 *Firsthand analysis. Corrections welcome. Also thanks claude for helping with this writeup and the diagrams :3*
+
 
 </div>
