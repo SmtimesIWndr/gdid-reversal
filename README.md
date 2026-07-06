@@ -70,6 +70,9 @@ The social media summary claimed the GDID is *"a 128 bit identifier generated fr
 | "128 bit" | The value in the complaint is `g:6755467234350028`, a decimal that fits in **64 bits** (`0x0018000FC8CB93CC`). |
 | "generated from serial numbers on install" | The complaint says a **reinstall produces a new GDID**. A value derived from fixed serials would come back the same after a reinstall, not change. |
 
+> [!NOTE]
+> **After some more reversing of CDP. I provided some misinfo. Using a local account does not prevent a GDID. CDP has an anonymous device path that is taken if no microsoft account. Keep this in mind when reading.
+
 ---
 
 ## 3. Where GDID surfaces: Delivery Optimization
