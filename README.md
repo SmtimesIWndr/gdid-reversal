@@ -71,7 +71,7 @@ The social media summary claimed the GDID is *"a 128 bit identifier generated fr
 | "generated from serial numbers on install" | The complaint says a **reinstall produces a new GDID**. A value derived from fixed serials would come back the same after a reinstall, not change. |
 
 > [!NOTE]
-> **After some more reversing of CDP. I provided some misinfo. Using a local account does not prevent a GDID. CDP has an anonymous device path that is taken if no microsoft account. Keep this in mind when reading.
+> **After some more reversing of CDP. I provided some misinfo. Using a local account does not prevent a GDID. CDP has an anonymous device path that is taken if no microsoft account. Keep this in mind when reading.**
 
 ---
 
