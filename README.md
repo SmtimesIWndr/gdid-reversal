@@ -250,7 +250,6 @@ If `ExtendedProperties\LID` is empty on your box, the same value is sitting unde
 
 The GDID exists because your device is registered into the Microsoft Account device graph and the Connected Devices Platform keeps it synced. To cut it back:
 
-- **Use a local account** (don't add a Microsoft Account). The device PUID gets minted when you provision with an MSA. No MSA, no registration like this.
 - **Kill the Connected Devices Platform** (`CDPSvc`, `CDPUserSvc`) and turn off **Activity History** (Settings, Privacy, Activity history) to stop the graph sync and the activity uploads.
 - Deleting `%LOCALAPPDATA%\ConnectedDevicesPlatform` only wipes local CDP state. The PUID comes right back from the identity store, so that alone won't cut it.
 - A **reinstall** gives you a new GDID (the complaint says so), but it gets tied to a fresh one the second it registers again.
